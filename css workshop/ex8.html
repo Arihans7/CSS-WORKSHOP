@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two-Column Layout</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: flex;
+            height: 100vh;
+        }
+        .left-column, .right-column {
+            width: 50%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .left-column {
+            background-color: #d3d3d3; /* Light gray */
+        }
+        .right-column {
+            background-color: #90ee90; /* Light green */
+        }
+        h2 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-column">
+            <h2>Amazon Kindle Bestsellers</h2>
+            <ol>
+                <li><a href="https://www.amazon.com/dp/B0B6Q7Y8L9">The Crash by Freida McFadden</a></li>
+                <li><a href="https://www.amazon.com/dp/B0BTV7JZXJ">Fourth Wing (The Empyrean Book 1) by Rebecca Yarros</a></li>
+                <li><a href="https://www.amazon.com/dp/B09F5YB5P8">The Housemaid by Freida McFadden</a></li>
+                <li><a href="https://www.amazon.com/dp/B08V1Q7K6T">The Lost Bookshop by Evie Woods</a></li>
+                <li><a href="https://www.amazon.com/dp/B08X4Y9Y5X">Twisted Love by Ana Huang</a></li>
+            </ol>
+        </div>
+        <div class="right-column">
+            <h2>Favorite Celebrities/Athletes</h2>
+            <ol>
+                <li>Leonardo DiCaprio</li>
+                <li>Adoalf Hitler</li>
+                <li>Robert Downey Jr.</li>
+                <li>Usain Bolt</li>
+                <li>Putin</li>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>
